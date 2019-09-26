@@ -1,0 +1,82 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.nav {
+  color: #000;
+  text-shadow: 1px 1px 1px #333;  
+  font-size: 20px;
+}
+
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  padding:150px;
+  color: rgb(9, 84, 128);
+  text-shadow: 3px 3px 3px rgb(51, 51, 51);
+}
+
+.overlay h1 {
+  font-size: 4rem;
+  display: inline-block;
+}
+
+.overlay h1::after {
+  content: "";
+  display: block;
+  width: 0;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 9px;
+  animation: underlineAnimation 2s forwards;
+}
+.task-page-wrapper{
+ padding-top: 40px;
+}
+.task-page-wrapper .card{
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 2px solid #2c3240;
+  border-radius: 16px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #0000fe;
+  color: white;
+}
+
+.task-page-wrapper .card .card-title{
+  padding: 10px 0px;
+  background-color: #b5d6df;
+  color: #2c3240;
+  font-size: 2rem;
+}
+
+.task-page-wrapper .card .card-body{
+  padding: 0;
+}
+
+.task-page-wrapper h4{
+  color: rgb(9, 84, 128);
+  text-shadow: 1px 1px 1px rgb(51, 51, 51);
+}
+
+.task-page-wrapper h6{
+  color: rgb(9, 84, 128);
+  text-shadow: 1px 1px 1px rgb(51, 51, 51);
+}
+
+
